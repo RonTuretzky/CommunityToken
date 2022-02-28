@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 interface CommunityToken{
     //------------------------------------------------------------------------------------------------//
     //Add an event,
-    //can only be used by WITH ADMIN acc, which can be challenged by consensus. 
+    //can only be used by WITH ADMIN acc
     //WITH ADMIN account will be operated by api calls from an event stream. 
     //Recieves an event id , user etherum wallet ( The host) and a flag for 
     //Whether the host recieves tokens as entry to the event. 
